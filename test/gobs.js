@@ -12,5 +12,5 @@ test('should execute callback when all transitions occured', assert => {
   dispatch('hello')
   dispatch('everybody')
   dispatch('world')
-  assert.equal(i, 2)
+  assert.equal(i, 1)
 })
