@@ -1,0 +1,32 @@
+{
+  "name": "gobs",
+  "version": "0.0.0",
+  "description": "Execute a callback that depends on multiple conditions",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/gobs.git"
+  },
+  "keywords": [
+    "event",
+    "emitter",
+    "transition",
+    "fsa",
+    "state",
+    "machine",
+    "doors",
+    "mood"
+  ],
+  "author": "Olvier <olivier.wietrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/gobs/issues"
+  },
+  "homepage": "https://github.com/bredele/gobs#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
