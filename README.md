@@ -5,7 +5,8 @@
 [![Downloads](https://img.shields.io/npm/dm/gobs.svg)](http://npm-stat.com/charts.html?package=gobs)
 [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
 
-Execute a callback that depends on multiple conditions. Gobs is used by the libraries [mood](http://github.com/bredele/mood) and [doors](http://github.com/bredele/doors).
+Execute a callback that depends on multiple conditions.
+ <!-- Gobs is used by the libraries [mood](http://github.com/bredele/mood) and [doors](http://github.com/bredele/doors). -->
 
 ## Usage
 
