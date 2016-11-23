@@ -7,8 +7,6 @@
 
 Execute a callback that depends on multiple conditions. Gobs is used by the libraries [mood](http://github.com/bredele/mood) and [doors](http://github.com/bredele/doors).
 
-[Try it online!]()
-
 ## Usage
 
 ```js
