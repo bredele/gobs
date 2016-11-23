@@ -1,6 +1,6 @@
 {
   "name": "gobs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Execute a callback that depends on multiple conditions",
   "main": "index.js",
   "scripts": {
