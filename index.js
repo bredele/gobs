@@ -12,9 +12,14 @@
  */
 
 module.exports = function(transitions, cb) {
-  return function(event) {
-    var index = transitions.indexOf(event)
-    if(index > -1) transitions.splice(index, 1)
-    if(!transitions.length) cb()
+  var clone = transitions.slice(0)
+  var data = []
+  return function(topic, arg) {
+    var index = transitions.indexOf(topic)
+    if(index > -1) {
+      transitions.splice(index, 1)
+      data.splice(clone.indexOf(topic), 1, arg)
+    }
+    if(!transitions.length) cb.apply(null, data)
   }
 }

@@ -25,3 +25,16 @@ test('should execute callback when all (and same) transitions occured', assert =
   dispatch('hello')
   assert.equal(i, 1)
 })
+
+
+test('should pass data', assert => {
+  assert.plan(2)
+  var i = 0
+  var dispatch = gobs(['hello', 'world'], (first, second) =>  {
+    assert.equal(first, 'first')
+    assert.equal(second, 'second')
+  })
+  dispatch('hello', 'first')
+  dispatch('world', 'second')
+
+})
